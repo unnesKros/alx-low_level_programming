@@ -1,2 +1,0 @@
-#!/bin/bash
-gcc -S -02 $CFILE -o ${CFILE%.c}.s
