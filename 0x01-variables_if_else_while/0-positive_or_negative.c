@@ -2,13 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-*The output of the program should be:
-*The number, followed by
-*if the number is greater than 0: is positive
-*if the number is 0: is zero
-*if the number is less than 0: is negative
-*followed by a new line
+/**
+* main - Entry point
+* The output of the program should be:
+* The number, followed by
+* if the number is greater than 0: is positive
+* if the number is 0: is zero
+* if the number is less than 0: is negative
+* followed by a new line
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -22,7 +24,7 @@ else if (n > 0)
 printf("%d is positive\n", n);
 else
 {
-printf("0 is zero");
+printf("0 is zero\n");
 }
 return (0);
 }
