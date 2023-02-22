@@ -5,7 +5,7 @@
  * in lowercase, followed by a new line.
  * Prototype: void print_alphabet(void);
  * You can only use _putchar twice in your code
- * description - Prototype: void print_alphabet(void)
+ * description : Prototype: void print_alphabet(void)
  * return: 0
  */
 
