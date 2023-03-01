@@ -3,7 +3,8 @@
  * _strncat - function that concatenates two strings.
  * @dest: first string
  * @src: second srting
- * Retrun: concatenat string
+ * @n: number
+ * Return: concatenat string
  **/
 
 char *_strncat(char *dest, char *src, int n)
