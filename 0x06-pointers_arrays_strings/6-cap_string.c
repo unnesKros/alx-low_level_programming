@@ -28,11 +28,11 @@ char *cap_string(char *c)
 		{
 			for (j = 0; nots[j] != '\0'; j++)
 			{
-				if (nots[j] == c[i]
-					{
-						trigger = 0;
-						break;
-					}
+				if (nots[j] == c[i])
+				{
+					trigger = 0;
+					break;
+				}
 			}
 		}
 	}
