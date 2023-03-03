@@ -30,7 +30,7 @@ char *cap_string(char *c)
 			{
 				if (nots[j] == c[i])
 				{
-					trigger = 0;
+					trigger = 1;
 					break;
 				}
 			}
