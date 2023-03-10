@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * _puts - function that prints a strong
- * @s: the string
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
 
-void _puts(char *s)
+void _puts(char *str)
 {
-	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
+	while (*str != '\0')
 	{
-		_putchar(s[i]);
+		_putchar(*str + 0);
+		++str;
 	}
-
 	_putchar('\n');
 }
-
