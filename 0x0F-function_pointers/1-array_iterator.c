@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
- * array-iterator - function that print array ints with other fun
+ * array_iterator - function that print array ints with other fun
  * @array: the input array
  * @size: the array size
  * @action: the function that use
