@@ -4,6 +4,7 @@
 /**
  * pop_listint - function that delete the first node AKA head
  * @head: the head of the list
+ * Return: the num of the deleted head
  */
 
 int pop_listint(listint_t **head)
